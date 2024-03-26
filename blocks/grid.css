@@ -1,0 +1,11 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Oito colunas */
+    grid-template-rows: repeat(2, auto); /* Duas linhas */
+    gap: 16px;
+    width: 1184px;
+    margin: 118px 48px  auto;
+}
+.grid__imagen{
+    width:284px;
+}

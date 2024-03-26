@@ -1,0 +1,82 @@
+.Berea{
+    display: flex;
+    flex-direction: column; 
+}
+.Berea__title{
+    font-family: 'Inter';
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    width:400px;
+    margin: 92px 150px auto;
+}
+.Berea__cdd{
+    display: flex;
+}
+.Berea__boxs{
+    display: flex;
+    flex-direction: column;
+}
+.Berea__imagen{
+    width: 458.6px;
+    margin: 48px 40px 0 150px  ;
+}
+.Berea__boxs_Berea__box{
+    display: flex;
+    position: relative;
+    background-color: #0278FE;
+    width: 284.13px;
+    border-radius: 4px;
+    margin: 48px 0 0 150px;
+}
+.Berea__nft{
+ font-family: 'Inter';
+ font-size: 18px;
+ font-weight: 600;
+ line-height: 21.78px;
+ text-align: center;
+ width: 245px;
+ margin: 13px auto;
+}
+.Berea__cdd_Berea__text{
+    flex-direction: column;
+}
+.Berea__sub-title{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    position: relative;
+    margin: 0  ;
+    width: 266.40px;
+    top:-30px;
+}
+.Berea__span{
+    width: 57.82px;
+    opacity: 70%;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    color: #AAAAAA;
+    position:absolute;
+    top: -24px;
+}
+.Berea__text-5{
+    position: relative;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 482.53px;
+}
+.Berea__text-6{
+    position: relative;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    width: 482.53px;
+    margin: 0 auto;
+    top: 10px;
+}
