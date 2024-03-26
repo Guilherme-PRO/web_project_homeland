@@ -1,8 +1,8 @@
-.kyev{
+.city{
     display: flex;
     flex-direction: column;
 }
-.kyev__title{
+.city__title{
     width: 458.6px ;
     font-family: 'Inter';
     font-size: 72px;
@@ -10,21 +10,21 @@
     line-height: 76px;
     margin: 92px 150px auto;
 }
-.kyev__cdd{
+.city__cdd{
 display: flex;
 }
-.kyev__boxs{
+.city__boxs{
     display: flex;
     flex-direction: column;
 }
-.kyev__imagen{
+.city__imagen{
     width: 458.6px;
     margin: 48px 40px 0 150px  ;
 }
-.kyev__cdd_kyev__cdd__text{
+.city__cdd_city__cdd__text{
 flex-direction: column;
 }
-.kyev__sub-title{
+.city__sub-title{
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 400;
@@ -33,7 +33,7 @@ flex-direction: column;
     position: relative;
     top: -20px;
 }
-.kyev__span{
+.city__span{
     width: 57.82px;
     opacity: 70%;
     font-family: 'Inter';
@@ -44,7 +44,7 @@ flex-direction: column;
     position:absolute;
     top: -24px;
 }
-.kyev__text-1{
+.city__text{
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 400;
@@ -52,22 +52,26 @@ flex-direction: column;
     width: 482.53px;
     margin: 33px 0 25px;
 }
-.kyev__text-2{
+.city__text{
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
     width: 482.53px;    
 }
-.kyev__boxs_kyev__box{
+.city__boxs_city__box{
     display: flex;
     position: relative;
     background-color:#0278FE;
     width: 284.13px;
     border-radius: 4px;
+    text-align: center;
+    width: 245px;
     margin: 48px 0 0 150px; 
 }
-.kyev__nft{
+.city__nft{
+    text-decoration: none;
+    color: #fff;
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 600;

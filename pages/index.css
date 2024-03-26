@@ -8,25 +8,16 @@
 @import url(../blocks/header.css);
 
 /*import do gallery*/
+@import url(../blocks/intro.css);
+
+/*import do gallery*/
 @import url(../blocks/gallery.css);
 
 /*import do grid*/
 @import url(../blocks/grid.css);
 
 /*import do kyev*/
-@import url(../blocks/kyev.css);
-
-/*import do criccieth*/
-@import url(../blocks/Criccieth.css);
-
-/*import do berea*/
-@import url(../blocks/berea.css);
-
-/*import do muramvya*/
-@import url(../blocks/muramvya.css);
-
-/*import do lisboa*/
-@import url(../blocks/lisboa.css);
+@import url(../blocks/citys.css);
 
 /*import do footer*/
 @import url(../blocks/footer.css);

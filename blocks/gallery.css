@@ -1,26 +1,8 @@
-.gallery__title{
-    display: flex;
-    font-family: 'Inter';
-    width: 830px;
-    font-size: 63px;
-    font-weight: 900;
-    line-height: 58px;
-    margin: 92px 148px auto ;
-}
-.gallery__text-1{
-    width: 737.78px;
-    font-family: 'Inter';
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-    text-align: left;
-    margin: 40px 148px auto;
-}
-.gallery__text-2{
-    width:721.74px;
-    font-family: 'Inter';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26.08px;
-    margin: 76px 148px auto;
+.gallery {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1184px;
+    height: 442px;
+    margin: 118px auto 92px;
 }
