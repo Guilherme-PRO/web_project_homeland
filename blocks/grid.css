@@ -1,11 +1,192 @@
-.grid{
+.cities {
+    margin: 0 auto;
+    width: 984px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Oito colunas */
-    grid-template-rows: repeat(2, auto); /* Duas linhas */
-    gap: 16px;
-    width: 1184px;
-    margin: 118px 48px  auto;
+    grid-row-gap: 80px;
 }
-.grid__imagen{
-    width:284px;
+
+.city {
+    width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "title ." 
+    "title artista"
+    "image texto"
+    "btn texto"
+    ". texto";
+    grid-column-gap: 40px;
+}
+
+.city__title {
+    
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.06;
+    grid-area: title;
+    margin: 0;
+}
+
+.artist{
+    grid-area: artista;
+
+}
+.artist__sub-title {
+    grid-area: subtitle;
+    font-size: 18px;
+    font-weight: 400;
+    width: 454.61px;
+    margin: 0;
+
+}
+
+.artist__span {
+    width: 57.82px;
+    opacity: 70%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #AAAAAA;
+    margin: 0;
+}
+
+.city__image {
+    margin: 48px 0;
+    width: 100%;
+    grid-area: image;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+.city__texts {
+    margin: 40px 0 0;
+    grid-area: texto;
+    display: grid;
+    grid-row-gap: 25px;
+}
+.city__text{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    width: 482.53px;
+}
+
+
+.btn {
+    grid-area: btn;
+    background-color: #0278FE;
+    width: 284.13px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    padding: 13px 20px;
+}
+.city__nft{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: center;
+    width: 245px;
+    padding: 13px auto;
+}
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .citys{
+        margin: 0 24px;
+        width: 320px;
+        grid-row-gap: 48px;
+    }
+    .city{
+        width: 720px;
+        margin: 62px 0 0;
+        grid-column-gap: 28px;
+    }
+    .city__title{
+        width: 288px;
+        margin: 0 16px 0 ;
+    }
+    .artist{
+        grid-area: artista;
+    }
+    .artist__sub-title {
+        font-size: 18px;
+        line-height: 22px;
+        width: 288px;
+        margin: 8px 16px 0;
+    }
+    .artist__span {
+        width: 288px;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 30px 16px 0 ;
+    }
+    .city__image{
+        width: 320px;
+        margin: 80px 0 0;
+    }
+    .city__text{
+        width: 288px;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 16px;
+    }
+    .btn{
+        margin: 30px 0 0 ;
+    }
+}
+@media screen and (max-width: 320px) {
+    .citys{
+        width: 320px;
+        grid-gap: 50px;
+        margin: 0;
+    }
+    .city{
+        width: 320px;
+        margin: 62px auto 0;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "title"
+        "artista"
+        "image"
+        "texto"
+        "btn";
+    }
+    .city__title{
+        width: 288px;
+        margin: 0 16px 0 ;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .artist{
+        grid-area: artista;
+    }
+    .artist__sub-title {
+        font-size: 18px;
+        line-height: 22px;
+        width: 288px;
+        margin: 8px 16px 0;
+    }
+    .artist__span {
+        width: 288px;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 30px 16px 0 ;
+    }
+    .city__image{
+        width: 320px;
+        margin: 80px 0 0;
+    }
+    .city__text{
+        width: 288px;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 16px;
+    }
+    .btn{
+        margin: 30px auto 0 ;
+    }
 }

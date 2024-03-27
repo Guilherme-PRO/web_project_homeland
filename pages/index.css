@@ -16,8 +16,9 @@
 /*import do grid*/
 @import url(../blocks/grid.css);
 
-/*import do kyev*/
-@import url(../blocks/citys.css);
 
+/*import do kyev
+@import url(../blocks/citys.css);
+*/
 /*import do footer*/
 @import url(../blocks/footer.css);
