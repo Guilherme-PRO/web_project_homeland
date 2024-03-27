@@ -1,6 +1,5 @@
 .footer {
     display: flex;
-    color: #2A2C2F;
     margin: 92px 0 0;
     color: #fff;
     flex-direction: column;
@@ -16,7 +15,6 @@
     background-position: center;
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    text-align: center;
     margin: 92px auto 0;
 }
 
@@ -82,7 +80,6 @@
         flex-direction: column;
         text-align: center;
         background-repeat: no-repeat;
-        text-align: center;
         margin: 92px auto 0;
     }
     
