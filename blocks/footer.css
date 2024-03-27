@@ -1,16 +1,16 @@
 .fooder{
-display: flex;
-color: #2A2C2F;
+    display: flex;
+    color: #2A2C2F;
 }
 .footer__card{
-display: flex;
-flex-direction: column;
-text-align: center;
-width: 1184px;
-opacity: 0.3px;
-background-image:url(../image/__backgroundfooder.png);
-background-size: cover;
-margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1184px;
+    opacity: 0.3px;
+    background-image:url(../image/__backgroundfooder.png);
+    background-size: cover;
+    margin: auto;
 }
 .footer__title{
     font-family: 'Inter';
@@ -29,17 +29,21 @@ margin: auto;
     margin: 32px auto 0;
 }
 .footer__card_footer__boxs{
-background-color: #0278FE;
-width: 230px;
-border-radius: 4px;
-margin: 32px auto 243px;
+    background-color: #0278FE;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    margin: 32px auto 243px;
+    border: none;
 }
 .footer__boxs_footer__box{
+    text-decoration: none;
     font-family: 'Inter';
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
     line-height: 21.78px;
     margin:13px 20px 13px 20px ;
+    color: #ffff;
 }
 .footer__copyright{
     display: flex;

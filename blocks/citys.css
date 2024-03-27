@@ -1,3 +1,9 @@
+.citys{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;  
+    width: 984px;
+}
 .city{
     display: flex;
     flex-direction: column;
@@ -19,6 +25,7 @@ display: flex;
 }
 .city__imagen{
     width: 458.6px;
+    height: 460px;
     margin: 48px 40px 0 150px  ;
 }
 .city__cdd_city__cdd__text{
@@ -31,7 +38,7 @@ flex-direction: column;
     width: 454.61px;
     margin: 0;
     position: relative;
-    top: -20px;
+    top: -31px;
 }
 .city__span{
     width: 57.82px;
@@ -50,14 +57,7 @@ flex-direction: column;
     font-weight: 400;
     line-height: 35px;
     width: 482.53px;
-    margin: 33px 0 25px;
-}
-.city__text{
-    font-family: 'Inter';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 34px;
-    width: 482.53px;    
+    margin: 26px 0 25px;
 }
 .city__boxs_city__box{
     display: flex;
@@ -68,6 +68,7 @@ flex-direction: column;
     text-align: center;
     width: 245px;
     margin: 48px 0 0 150px; 
+    border: none;
 }
 .city__nft{
     text-decoration: none;
