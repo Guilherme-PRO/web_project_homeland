@@ -107,7 +107,7 @@
     }
     .city__title{
         width: 288px;
-        margin: 0 16px 0 ;
+        margin: 0 16px 0;
     }
     .artist{
         grid-area: artista;
@@ -122,7 +122,7 @@
         width: 288px;
         font-size: 12px;
         line-height: 14px;
-        margin: 30px 16px 0 ;
+        margin: 30px 16px 0;
     }
     .city__image{
         width: 320px;
@@ -135,7 +135,7 @@
         margin: 0 16px;
     }
     .btn{
-        margin: 30px 0 0 ;
+        margin: 30px 0 0;
     }
 }
 @media screen and (max-width: 320px) {
@@ -157,7 +157,7 @@
     }
     .city__title{
         width: 288px;
-        margin: 0 16px 0 ;
+        margin: 0 16px 0;
         font-size: 32px;
         line-height: 35px;
     }
@@ -174,7 +174,7 @@
         width: 288px;
         font-size: 12px;
         line-height: 14px;
-        margin: 30px 16px 0 ;
+        margin: 30px 16px 0;
     }
     .city__image{
         width: 320px;
